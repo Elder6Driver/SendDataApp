@@ -1,0 +1,5 @@
+# SendDataApp
+A winform send arduino data to sql server
+一个定时向arduino发送数据，并将数据插入到数据库（MSSQL）的winform程序，在vs2010下编写
+和TempreatureDemo一起使用，arduino板和PC连接，TempreatureDemo为arduino烧录程序，SendDataApp为PC端程序
+使用时需要将App.config中数据库连接字符串进行修改
